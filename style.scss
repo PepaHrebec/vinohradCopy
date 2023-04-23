@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -9,6 +10,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  padding: 10px 20px;
 }
 
 .header-img-right {
@@ -19,7 +21,8 @@ header {
 .header-menu {
   display: flex;
   align-items: end;
-  gap: 10px;
+  gap: 20px;
+  font-size: 1.2em;
   & > a {
     text-decoration: none;
     color: #ffffff;
@@ -30,6 +33,7 @@ header {
   display: flex;
   flex-direction: row;
   gap: 10px;
+  font-size: 0.9em;
   & > div {
     color: #ffffff;
   }
@@ -52,4 +56,5 @@ header {
   flex-direction: column;
   align-items: center;
   color: #ffffff;
+  font-size: 2.5em;
 }
