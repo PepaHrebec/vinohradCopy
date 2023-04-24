@@ -58,3 +58,26 @@ header {
   color: #ffffff;
   font-size: 2.5em;
 }
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.date {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu-group {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.menu-item-top {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
