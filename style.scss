@@ -23,6 +23,7 @@ header {
   align-items: end;
   gap: 20px;
   font-size: 1.2em;
+  letter-spacing: 2px;
   & > a {
     text-decoration: none;
     color: #ffffff;
@@ -57,17 +58,34 @@ header {
   align-items: center;
   color: #ffffff;
   font-size: 2.5em;
+  letter-spacing: 2px;
 }
 
 main {
   max-width: 600px;
+  padding-top: 100px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 
 .date {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.date-time {
+  font-weight: 400;
+  font-size: 2em;
+  letter-spacing: 2px;
+}
+
+.date-icons a:first-child {
+  padding: 0 15px;
 }
 
 .menu-group {
@@ -76,8 +94,52 @@ main {
   gap: 40px;
 }
 
+.menu-tag {
+  font-weight: 300;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
+
 .menu-item-top {
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 10px;
+}
+
+.menu-item-name {
+  font-weight: 400;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+}
+
+.menu-item-small {
+  font-weight: 300;
+  font-size: 0.8em;
+}
+
+.menu-item-descr {
+  font-weight: 300;
+  font-size: 0.9em;
+}
+
+.order-box {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  & p {
+    font-weight: 300;
+    font-size: 0.9em;
+  }
+}
+
+.order-sign {
+  padding: 15px 20px;
+  background-color: black;
+  color: #ffffff;
+  font-size: 0.9em;
+  font-weight: 300;
+  text-align: center;
+  max-width: fit-content;
 }
