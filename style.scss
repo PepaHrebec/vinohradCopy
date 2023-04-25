@@ -145,6 +145,47 @@ main {
   max-width: fit-content;
 }
 
+.input-wrap {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  margin: 10px 0;
+  & > input {
+    padding: 2px 4px;
+    border-radius: 0;
+    border: solid black 1px;
+    width: 250px;
+  }
+  & > button {
+    border: solid black 1px;
+    border-left: none;
+    border-radius: 0;
+    margin-left: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+  & img {
+    width: 70%;
+  }
+}
+
+.gdpr-check {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  & > a {
+    font-weight: 300;
+    font-size: 0.9em;
+    color: black;
+  }
+  & > input {
+  }
+}
+
 .map-img {
   background-image: url(https://www.vinohradskyparlament.cz/user/documents/pic/map.jpg?1);
   width: 100%;
