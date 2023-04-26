@@ -13,6 +13,10 @@ header {
   padding: 10px 20px;
 }
 
+.hamburger-btn {
+  display: none;
+}
+
 .header-img-left {
   display: flex;
   align-self: start;
@@ -50,6 +54,25 @@ header {
 }
 .header-info-right > div {
   color: #ffffff;
+}
+
+.body {
+  position: relative;
+}
+
+.side-nav {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background-color: black;
+  transition: width 0.5s;
+}
+
+.show {
+  width: 300px;
 }
 
 .hero {
@@ -334,4 +357,16 @@ footer {
 .footer-bottom p {
   font-weight: 300;
   font-size: 0.9em;
+}
+
+@media screen and (max-width: 950px) {
+  .header-menu {
+    display: none;
+  }
+  .hamburger-btn {
+    display: block;
+    min-width: 200px;
+    position: relative;
+    z-index: 2;
+  }
 }/*# sourceMappingURL=style.css.map */
