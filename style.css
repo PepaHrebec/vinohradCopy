@@ -217,6 +217,12 @@ main {
   position: relative;
 }
 
+.map-a-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
 .map-bruxx {
   text-decoration: none;
   font-weight: 300;
@@ -226,9 +232,7 @@ main {
   border-radius: 0;
   border: none;
   padding: 5px;
-  position: absolute;
-  top: 46%;
-  left: 48%;
+  margin-left: -20px;
 }
 .map-bruxx:hover {
   text-decoration: underline;
@@ -243,10 +247,24 @@ main {
   border-radius: 0;
   border: none;
   padding: 5px;
-  position: absolute;
-  top: 45%;
-  left: 52%;
+  margin-left: 10px;
+  position: relative;
+  top: -10px;
 }
 .map-parla:hover {
   text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-col-content-wrap {
+  max-width: 250px;
 }/*# sourceMappingURL=style.css.map */
