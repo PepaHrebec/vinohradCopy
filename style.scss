@@ -108,7 +108,8 @@ main {
 }
 
 .menu-item-name,
-.mail-tag {
+.mail-tag,
+.footer-header {
   font-weight: 400;
   font-size: 1.2em;
   letter-spacing: 2px;
@@ -253,6 +254,7 @@ main {
 }
 
 footer {
+  padding: 40px 70px;
   display: flex;
   flex-direction: column;
 }
@@ -262,6 +264,36 @@ footer {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .footer-col-content-wrap {
   max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-header > a {
+  text-decoration: none;
+  color: black;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.footer-text {
+  font-weight: 300;
+  font-size: 0.9em;
+  & > a {
+    text-decoration: none;
+    color: black;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
