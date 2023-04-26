@@ -13,20 +13,30 @@ header {
   padding: 10px 20px;
 }
 
-.header-img-right {
-  max-width: 160px;
+.header-img-left {
+  display: flex;
+  align-self: start;
+  width: 160px;
   filter: invert(100%);
 }
 
 .header-menu {
   display: flex;
-  align-items: end;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 20px;
-  font-size: 1.2em;
+  font-size: 1.1em;
   letter-spacing: 2px;
+  overflow: auto;
+  position: relative;
+  top: 30px;
   & > a {
     text-decoration: none;
     color: #ffffff;
+    width: max-content;
+  }
+  & > a:hover {
+    text-decoration: underline;
   }
 }
 
@@ -35,6 +45,7 @@ header {
   flex-direction: row;
   gap: 10px;
   font-size: 0.9em;
+  min-width: 200px;
   & > div {
     color: #ffffff;
   }
@@ -57,7 +68,7 @@ header {
   flex-direction: column;
   align-items: center;
   color: #ffffff;
-  font-size: 2.5em;
+  font-size: 2.3em;
   letter-spacing: 2px;
 }
 
@@ -254,6 +265,7 @@ main {
 }
 
 footer {
+  width: 100%;
   padding: 40px 70px;
   display: flex;
   flex-direction: column;
@@ -278,6 +290,15 @@ footer {
   gap: 20px;
 }
 
+.footer-col-img-group {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  & img {
+    width: 40px;
+  }
+}
+
 .footer-header > a {
   text-decoration: none;
   color: black;
@@ -295,5 +316,18 @@ footer {
     &:hover {
       text-decoration: underline;
     }
+  }
+}
+
+.footer-bottom {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  & p {
+    font-weight: 300;
+    font-size: 0.9em;
   }
 }
