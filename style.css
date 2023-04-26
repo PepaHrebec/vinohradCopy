@@ -214,4 +214,39 @@ main {
   width: 100%;
   height: 500px;
   background-position: center;
+  position: relative;
+}
+
+.map-bruxx {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 0.9em;
+  color: black;
+  background-color: #ffffff;
+  border-radius: 0;
+  border: none;
+  padding: 5px;
+  position: absolute;
+  top: 46%;
+  left: 48%;
+}
+.map-bruxx:hover {
+  text-decoration: underline;
+}
+
+.map-parla {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 0.9em;
+  color: #ffffff;
+  background-color: black;
+  border-radius: 0;
+  border: none;
+  padding: 5px;
+  position: absolute;
+  top: 45%;
+  left: 52%;
+}
+.map-parla:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
