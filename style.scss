@@ -62,7 +62,7 @@ header {
   }
 }
 
-.body {
+body {
   position: relative;
 }
 
@@ -424,6 +424,7 @@ footer {
   & p {
     font-weight: 300;
     font-size: 0.9em;
+    text-align: center;
   }
 }
 

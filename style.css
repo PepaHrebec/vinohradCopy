@@ -63,7 +63,7 @@ header {
   color: #ffffff;
 }
 
-.body {
+body {
   position: relative;
 }
 
@@ -429,6 +429,7 @@ footer {
 .footer-bottom p {
   font-weight: 300;
   font-size: 0.9em;
+  text-align: center;
 }
 
 @media screen and (max-width: 950px) {
