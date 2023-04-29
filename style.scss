@@ -96,13 +96,20 @@ body {
   display: flex;
   flex-direction: column;
   padding: 30px 10px;
-  & > p {
+  & p {
     font-weight: 300;
     font-size: 0.9em;
     margin: 0 auto;
     padding-bottom: 20px;
     color: #ffffff;
   }
+}
+
+.side-nav-wrap {
+  position: sticky;
+  top: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 .side-nav-group {
