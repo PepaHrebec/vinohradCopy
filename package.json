@@ -1,0 +1,23 @@
+{
+  "name": "vinohradcopy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PepaHrebec/vinohradCopy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PepaHrebec/vinohradCopy/issues"
+  },
+  "homepage": "https://github.com/PepaHrebec/vinohradCopy#readme",
+  "dependencies": {
+    "hamburgers": "^1.2.1"
+  }
+}

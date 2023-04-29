@@ -1,3 +1,10 @@
+$hamburger-layer-height: 1px !default;
+$hamburger-layer-width: 25px !default;
+$hamburger-layer-spacing: 12px !default;
+$hamburger-layer-color: #ffffff !default;
+
+@import "node_modules/hamburgers/_sass/hamburgers/hamburgers.scss";
+
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +21,7 @@ header {
   position: relative;
 }
 
-.hamburger-btn {
+.hamburger {
   display: none;
   position: absolute;
 }
@@ -72,6 +79,7 @@ body {
 }
 
 .dark {
+  background-color: rgba(0, 0, 0, 0.3);
   filter: brightness(0.6);
 }
 
@@ -100,7 +108,7 @@ body {
 .side-nav-group {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
   font-weight: 400;
   font-size: 1.1em;
   letter-spacing: 1px;
@@ -445,13 +453,12 @@ footer {
       width: 100%;
     }
   }
-  .hamburger-btn {
+  .hamburger {
     display: block;
     top: 20px;
     right: -10px;
     z-index: 5;
     transform: translateX(100%);
-    width: min-content;
   }
   .date {
     flex-direction: column;
