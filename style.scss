@@ -460,10 +460,14 @@ footer {
       width: 100%;
     }
   }
+  .burger-wrap {
+    position: sticky;
+    top: 30px;
+  }
   .hamburger {
     display: block;
-    top: 20px;
-    right: -10px;
+    top: -10px;
+    right: -20px;
     z-index: 5;
     transform: translateX(100%);
   }
